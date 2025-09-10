@@ -28,13 +28,13 @@ It was built as a coding assignment for **Scytale**.
 
 This solution consists of two main scripts:
 
-### extract1.py
+### extract.py
 - Fetches merged pull requests from GitHub repositories
 - Retrieves PR details, reviews, and commit statuses
 - Handles API pagination and rate limiting
 - Saves raw JSON data to `outputs/raw/`
 
-### transform1.py
+### transform.py
 - Processes raw JSON data from extract phase
 - Computes code review and status check compliance
 - Generates CSV/Parquet reports in `outputs/processed/`
